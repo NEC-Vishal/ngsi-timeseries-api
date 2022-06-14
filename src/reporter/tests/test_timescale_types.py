@@ -14,7 +14,7 @@ from utils.kvt import merge_dicts
 
 from .geo_queries_fixture import query_1t1ena
 from .utils import notify_url
-from src.utils.gen_tenant import gen_tenant_id
+from src.utils.tests.tenant import gen_tenant_id
 
 ENTITY_TYPE = 'device'
 

@@ -11,7 +11,7 @@ from translators.sql_translator import SQLTranslator, current_timex
 from translators.sql_translator import ORIGINAL_ENTITY_COL, ENTITY_ID_COL, \
     TYPE_PREFIX, TENANT_PREFIX
 from utils.jsondict import maybe_value
-from src.utils.gen_tenant import gen_tenant_id
+from src.utils.tests.tenant import gen_tenant_id
 
 ENTITY_TYPE = 'device'
 TranslatorFactory = Callable[[], Generator[SQLTranslator, Any, None]]
